@@ -39,7 +39,7 @@ Add it to your `INSTALLED_APPS`:
 ``` python 
     INSTALLED_APPS = (
         ...
-        'django_preferences_utils',
+        'preferences_utils',
         ...
     )
 ```
