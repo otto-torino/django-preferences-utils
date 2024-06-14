@@ -9,7 +9,6 @@ try:
 except ImportError:
     from distutils.core import setup
 
-
 def get_version(*file_paths):
     """Retrieves the version from preferences_utils/__init__.py"""
     filename = os.path.join(os.path.dirname(__file__), *file_paths)
@@ -51,6 +50,7 @@ setup(
     version=version,
     description="""All you need for your django project settings""",
     long_description=readme + '\n\n' + history,
+    long_description_content_type='text/markdown',
     author='abidibo',
     author_email='abidibo@gmail.com',
     url=REPO_URL,
