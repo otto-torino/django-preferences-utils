@@ -1,0 +1,17 @@
+{% extends "admin/change_form.html" %}
+{% load i18n admin_urls preferences_utils %}
+
+{% block submit_buttons_bottom %}
+{% with request.GET|get_dict_item:'readonly' as readonly %}
+    <div class="submit-row">
+    {% if readonly != '1' %}
+        <input type="submit" value="{% translate 'Save' %}" class="default" name="_save">
+    {% endif %}
+    {% if readonly == '1' %}
+        <input type="submit" value="{% translate 'Edit' %}" class="default" name="_save" onclick="event.preventDefault(); window.location = '{% url opts|admin_urlname:'change' original.pk|admin_urlquote %}';">
+        {% url opts|admin_urlname:'delete' original.pk|admin_urlquote as delete_url %}
+        <a href="{% add_preserved_filters delete_url %}" class="deletelink">{% translate "Reset" %}</a>
+    {% endif %}
+    </div>
+{% endwith %}
+{% endblock %}

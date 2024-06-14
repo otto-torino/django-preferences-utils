@@ -1,0 +1,7 @@
+coverage==5.3
+mock>=1.0.1
+tox>=1.7.0
+codecov>=2.0.0
+
+# Additional test requirements go here
+django
