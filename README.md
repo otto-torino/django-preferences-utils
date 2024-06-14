@@ -2,8 +2,6 @@
 
 ![Version](https://img.shields.io/github/v/tag/otto-torino/django-preferences-utils?label=version)
 [![Build status](https://app.travis-ci.com/otto-torino/django-preferences-utils.svg?token=fp5hqwJQgwHKLpsjsZ3L&branch=main)](https://travis-ci.com/github/otto-torino/django-preferences-utils)
-![License](https://img.shields.io/pypi/l/django-preferences-utils)
-[![Downloads](https://pepy.tech/badge/django-preferences-utils)](https://pepy.tech/project/django-preferences-utils)
 
 ![Screenshot](images/screenshot.png)
 
