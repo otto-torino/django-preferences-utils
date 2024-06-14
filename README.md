@@ -1,5 +1,7 @@
 # Django Preferences Utils
 
+> Still in development, almost ready, stay tuned!
+
 ![Screenshot](images/screenshot.png)
 
 All you need to manage your django project preferences.
