@@ -20,10 +20,10 @@ Nothing special, you can solve it, but it's boring.
 
 So here comes Django Preferences Utils.
 
-You define your preferences in a model, use everything you want: file fields, image fields, json fields, translations, everything.
-Just make sure to subclass what you have to as explained below, register your model and you're done. All the other stuff is taken care of by Django Preferences Utils.
+**You define your preferences in a model, use everything you want: file fields, image fields, json fields, translations, everything.
+Just make sure to subclass what you have to as explained below, register your model and you're done. All the other stuff is taken care of by Django Preferences Utils.**
 
-Oh, and you can also define multiple models for your preferences.
+**Oh, and you can also define multiple models for your preferences.**
 
 ## How to
 
