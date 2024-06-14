@@ -41,7 +41,7 @@ if sys.argv[-1] == 'tag':
     sys.exit()
 
 readme = open('README.md').read()
-history = open('HISTORY.rst').read().replace('.. :changelog:', '')
+history = open('HISTORY.md').read()
 
 REPO_URL = 'https://github.com/otto-torino/django-preferences-utils'
 
