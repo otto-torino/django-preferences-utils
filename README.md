@@ -146,6 +146,13 @@ pip install -r requirements_dev.txt
 invoke -l
 ```
 
-## Credits
+## Credits and more
 
 Django Preferences Utils is developed by Otto SRL.
+
+You may also be interested in our other Django related projects:
+
+- [django-baton](https://github.com/otto-torino/django-baton) - A cool django admin application which (also) brings AI to the admin panel
+- [django-lineup](https://github.com/otto-torino/django-lineup) - Navigation system for django sites
+- [django-subject-imagefield](https://github.com/otto-torino/django-subject-imagefield) - An enhanced ImageField for django, providing subject position support
+- [django-admin-export-action](https://github.com/otto-torino/django-admin-export-action) - Export action for django admin
