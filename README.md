@@ -11,7 +11,7 @@ All you need to manage your django project preferences.
 ## Motivation
 
 So you need to manage your django project preferences.    
-You tried many different solutions bu no one seemed to work well.    
+You tried many different solutions but no one seemed to work well.    
 And then you came across this one.     
 Let's talk about it.    
 
@@ -22,7 +22,7 @@ Nothing special, you can solve it, but it's boring.
 
 So here comes Django Preferences Utils.
 
-**You define your preferences in a model, use everything you want: file fields, image fields, json fields, translations, everything.
+**You define your preferences in a model, use everything you want: file fields, image fields, json fields, translations, anything.
 Just make sure to subclass what you have to as explained below, register your model and you're done. All the other stuff is taken care of by Django Preferences Utils.**
 
 **Oh, and you can also define multiple models for your preferences.**
@@ -63,7 +63,7 @@ class Preferences(PreferencesUtilsModel):
 
 > Important: Django Preferences Utils will save your model by itself when requiring a preferences instance. So be sure to have only nullable fields or fields with a default value.
 
-Now probably you want to register you model in the admin:
+Now probably you want to register your model in the admin:
 
 ``` python
 from django.contrib import admin
