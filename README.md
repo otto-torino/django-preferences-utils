@@ -49,6 +49,7 @@ Create your preferences model:
 
 ``` python
 from django.db import models
+from django.utils.translation import gettext_lazy as _
 from preferences_utils.models import PreferencesUtilsModel
 
 # "pref" is the name used internally to ref this particular model
@@ -67,6 +68,7 @@ Now probably you want to register your model in the admin:
 
 ``` python
 from django.contrib import admin
+from django.utils.translation import gettext_lazy as _
 from preferences_utils.admin import PreferencesUtilsAdmin
 from .models import Preferences
 
