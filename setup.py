@@ -40,8 +40,17 @@ if sys.argv[-1] == 'tag':
     os.system("git push --tags")
     sys.exit()
 
-readme = open('README.md').read()
-history = open('HISTORY.md').read()
+try:
+    with open('README.md') as f:
+        readme = f.read()
+except IOError:
+    readme = ''
+
+try:
+    with open('HISTORY.md') as f:
+        history = f.read()
+except IOError:
+    history = ''
 
 REPO_URL = 'https://github.com/otto-torino/django-preferences-utils'
 
